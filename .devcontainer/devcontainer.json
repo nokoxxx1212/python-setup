@@ -1,0 +1,14 @@
+{
+    "name": "Python312docker",
+    "dockerFile": "../Dockerfile",
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "njpwerner.autodocstring",
+        "mosapride.zenkaku",
+        "streetsidesoftware.code-spell-checker"
+    ],
+    "forwardPorts": [
+        8888
+    ]
+}
