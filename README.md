@@ -36,7 +36,6 @@ $ poetry run black src tests
 $ poetry run flake8 src tests
 ```
 
-
 * Execute tests
 
 ```
