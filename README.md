@@ -27,6 +27,16 @@ $ jupyter-lab --allow-root --port=8888 --ip=0.0.0.0 &
 # -> http://localhost:18889
 ```
 
+* Set up CI (GitHub Actions)
+
+```
+Settings
+-> Secrets and variables
+-> Repository secrets
+DOCKER_PASSWORD
+DOCKER_USERNAME
+```
+
 ## Running the tests
 * Execute linter, formatter
 
